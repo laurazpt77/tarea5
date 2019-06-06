@@ -2,7 +2,7 @@
 
 #include "Particula.h"
 
-Particula::Particula(float x, float y, float velx, float vely, float r) : QGraphicsItem()
+Particula::Particula(float x, float y, float velx, float vely, float r) : QGraphicsItem()  //Un constructor por defecto, que invoca al constructor de la clase base
 {
 
     vx = velx;
